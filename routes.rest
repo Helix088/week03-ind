@@ -40,22 +40,22 @@ content-type: application/json
 PUT http://localhost:8080/contacts/63ba2c1898a0c4386448e05f HTTP/1.1
 content-type: application/json
  {
-        "firstName":"Chase",
-        "lastName":"Patterson",
-        "email":"chase.doug88@gmail.com",
-        "favoriteColor":"Blue",
-        "birthday":"04/09/1997"
+    "firstName":"Chase",
+    "lastName":"Patterson",
+    "email":"chase.doug88@gmail.com",
+    "favoriteColor":"Blue",
+    "birthday":"04/09/1997"
  }
 
 ###
 PUT https://chase-week03-ind.onrender.com/contacts/63ba2c1898a0c4386448e05f HTTP/1.1
 content-type: application/json
  {
-        "firstName":"Chase",
-        "lastName":"Patterson",
-        "email":"chase.doug88@gmail.com",
-        "favoriteColor":"Blue",
-        "birthday":"04/09/1997"
+    "firstName":"Chase",
+    "lastName":"Patterson",
+    "email":"chase.doug88@gmail.com",
+    "favoriteColor":"Blue",
+    "birthday":"04/09/1997"
  }
 
 ###
