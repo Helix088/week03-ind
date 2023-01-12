@@ -13,6 +13,18 @@ GET https://chase-week03-ind.onrender.com/contacts
 GET https://chase-week03-ind.onrender.com/contacts/63ba2c1898a0c4386448e05d
 
 ###
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Ben",
+    "lastName":"Perry",
+    "email":"killthemagefirst@gmail.com",
+    "favoriteColor":"Orange",
+    "birthday":"11/07/1996"
+}
+
+###
 POST https://chase-week03-ind.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
@@ -25,6 +37,18 @@ content-type: application/json
 }
 
 ###
+PUT http://localhost:8080/contacts/63ba2c1898a0c4386448e05f HTTP/1.1
+ {
+    {
+        "firstName":"Chase",
+        "lastName":"Patterson",
+        "email":"chase.doug88@gmail.com",
+        "favoriteColor":"Blue",
+        "birthday":"04/09/1997"
+    }
+ }
+
+###
 PUT https://chase-week03-ind.onrender.com/contacts/63ba2c1898a0c4386448e05f HTTP/1.1
  {
     {
@@ -35,6 +59,9 @@ PUT https://chase-week03-ind.onrender.com/contacts/63ba2c1898a0c4386448e05f HTTP
         "birthday":"04/09/1997"
     }
  }
+
+ ###
+ DELETE http://localhost:8080/contacts/ HTTP/1.1
 
  ###
  DELETE https://chase-week03-ind.onrender.com/contacts/ HTTP/1.1
