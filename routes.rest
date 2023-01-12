@@ -55,7 +55,7 @@ content-type: application/json
 {
     "firstName":"Chase",
     "lastName":"Patterson",
-    "email":"chase.doug88@gmail.com",
+    "email":"testchase.com",
     "favoriteColor":"Blue",
     "birthday":"04/09/1997"
 }
