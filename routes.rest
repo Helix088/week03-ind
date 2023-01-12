@@ -38,6 +38,7 @@ content-type: application/json
 
 ###
 PUT http://localhost:8080/contacts/63ba2c1898a0c4386448e05f HTTP/1.1
+content-type: application/json
  {
     {
         "firstName":"Chase",
@@ -50,6 +51,7 @@ PUT http://localhost:8080/contacts/63ba2c1898a0c4386448e05f HTTP/1.1
 
 ###
 PUT https://chase-week03-ind.onrender.com/contacts/63ba2c1898a0c4386448e05f HTTP/1.1
+content-type: application/json
  {
     {
         "firstName":"Chase",
@@ -61,7 +63,7 @@ PUT https://chase-week03-ind.onrender.com/contacts/63ba2c1898a0c4386448e05f HTTP
  }
 
  ###
- DELETE http://localhost:8080/contacts/ HTTP/1.1
+ DELETE http://localhost:8080/contacts/63bfae45b4dff65a89d79a05 HTTP/1.1
 
  ###
- DELETE https://chase-week03-ind.onrender.com/contacts/ HTTP/1.1
+ DELETE https://chase-week03-ind.onrender.com/contacts/63bfae45b4dff65a89d79a05 HTTP/1.1
